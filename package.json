@@ -1,0 +1,30 @@
+{
+  "name": "shipping-fedex",
+  "version": "0.0.1",
+  "description": "FedEx API bindings for Node.JS",
+  "author": {
+    "name": "uh-sem-blee, Co. | typefoo",
+    "email": "hello@typefoo.com"
+  },
+  "maintainers": [
+    {
+      "name": "jjosef",
+      "email": "john.josef@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typefoo/node-shipping-fedex"
+  },
+  "main": "./lib/index.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "extend": "~1.2.1",
+    "xmlbuilder": "~2.1.0",
+    "xml2json": "~0.3.2"
+  }
+}
