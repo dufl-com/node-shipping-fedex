@@ -1,7 +1,7 @@
 var fedexAPI = require('../lib/index');
 var util = require('util');
 
-var fedex = new upsFedex({
+var fedex = new fedexAPI({
   environment: 'sandbox', // or live
   key: 'FEDEXKEY',
   password: 'FEDEXPASSWORD',
